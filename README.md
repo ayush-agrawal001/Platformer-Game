@@ -2,6 +2,7 @@
 
 This is a simple platformer game built using JavaScript and HTML5 canvas. The player can move left, right, and jump across platforms. The game features gravity, platform collision detection, and background images.
 
+
 ## Game Mechanics
 The game is a classic platformer where the player can:
 
@@ -10,26 +11,25 @@ Jump onto and from platforms.
 Fall due to gravity.
 Restart the game upon falling off the screen.
 
-# Classes and Objects
-1. Player :  The Player class handles the player's character, including position, velocity, dimensions, and animations. Key methods include:
 
+# Classes and Objects
+
+1. Player :  The Player class handles the player's character, including position, velocity, dimensions, and animations. Key methods include:
 2. draw(): Renders the player on the canvas.
 3.  update(): Updates the player's position and handles animations.
 4. Platform: The Platform class represents platforms in the game that the player can stand on. Key methods include:
+5. smallPlat: The smallPlat class is similar to the Platform class but for smaller platforms. Key methods include:
+6.draw(): Renders the small platform on the canvas.
+7.GenericObject: The GenericObject class is used for static images like the background and hills. Key methods include:
 
-draw(): Renders the platform on the canvas.
-smallPlat: The smallPlat class is similar to the Platform class but for smaller platforms. Key methods include:
 
-draw(): Renders the small platform on the canvas.
-GenericObject: The GenericObject class is used for static images like the background and hills. Key methods include:
-
-draw(): Renders the generic object on the canvas.
 # Controls
 The player can control the game character using the following keys:
 
 W / Up Arrow: Jump
 A / Left Arrow: Move left
 D / Right Arrow: Move right
+
 
 # Customization
 You can customize the game by modifying various aspects of the code:
